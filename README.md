@@ -1,17 +1,18 @@
 # iPhone13 JavaScript Object
 
-This JavaScript code is an object named `iPhone13` that represents an iPhone 13 and is clearly an item I use every day. It contains various properties and methods related to this device:
+This JavaScript code is an object named `iPhone13` that represents an iPhone 13 and is clearly an item I use every day. Besides strngs, booleans, numbers, array and a function, it contains various nested objects related to the chosen object iPhone13:
 
-## Properties
-- `type`: An object containing information about the brand, model, and color of the iPhone.
-- `storage`: An object with details about the RAM and memory card support.
-- `display`: An object describing the screen size, panel type, and touchscreen capabilities.
-- `resolution`: An object specifying the screen resolution.
-- `features`: An array of features supported by the iPhone 13.
-- `on`: A boolean property that indicates whether the iPhone is turned on or off.
+## The Properties
 
-## Methods
-- `power()`: A method to toggle the power state of the iPhone. It switches the `on` property between `true` and `false`.
+- `type` (strings): This is an object containing information about the brand, model, and color of the iPhone.
+- `storage` (number and boolean): It gives details about the RAM and memory card support.
+- `display` (number, string and boolean): An object describing the screen size, panel type, and touchscreen capabilities.
+- `resolution` (number): An object specifying the screen resolution.
+- `features` (array, strings): An array of features supported by the iPhone 13.
+- `on` (boolean): A property that indicates whether the iPhone is turned on or off.
+
+## Methods / function
+- `power()` (method/function): A method to toggle the power state of the iPhone. It switches the `on` property between `true` and `false`.
 
 ## Usage
 You can use this JavaScript object to represent and manipulate the characteristics of an iPhone 13. For example, you can turn the iPhone on or off using the `power` method.
