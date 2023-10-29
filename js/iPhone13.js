@@ -22,11 +22,10 @@ const iPhone13 = {
         height: 2436
     },
 
-    features: ["Dual-camera", "GPS", "fingerprint supported", "faceID supported", "music-App"],
+    features: ["Dual-camera", "GPS", "fingerprint supported", "faceID supported"],
 
     on: false,
     
-
     power: function() {
         iPhone13.on = !iPhone13.on
     }

@@ -12,4 +12,4 @@ This JavaScript code is an object named `iPhone13` that represents an iPhone 13 
 - `on` (boolean): A property that indicates whether the iPhone is turned on or off.
 
 ## Methods / function
-- `power()` (method/function): A method to toggle the power state of the iPhone. It switches the `on` property between `true` and `false`.
+- `power()` (method/function): A method/funtion to toggle the power state of the iPhone. It switches the `on` property between `true` and `false`.
