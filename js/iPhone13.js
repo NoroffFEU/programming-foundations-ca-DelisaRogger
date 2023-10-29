@@ -30,12 +30,18 @@ const iPhone13 = {
     power: function() {
         iPhone13.on = !iPhone13.on
     }
+}
 
+// Testing if its pulling through to console in developper tools //
 
+console.log("iPhone13")
 
+if (iPhone13.on) {
+    console.log("iPhone is on.");
+} else {
+    console.log("iPhone is off.");
+}
 
-
-};
 
 
  
